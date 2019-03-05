@@ -1,0 +1,116 @@
+.edit-profile-component {
+    padding-top: 140px;
+    background: #fafafa;
+}
+
+.profile-edit {
+    border: 1px solid #dbdbdb;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.edit-profile-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+.edit-profile-menu li {
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 30px;
+    cursor: pointer;
+}
+.edit-profile-component li:hover {
+    background: #fafafa;
+    border-left: 2px solid #dbdbdb;
+    margin-left: -2px;
+}
+
+.react-tabs__tab--selected {
+    font-weight: bold;
+    border-left: 2px solid black;
+    margin-left: -2px !important;
+}
+
+.profile-edit .col-3 {
+    padding: 0 !important;
+    border: none;
+    border-right: 1px solid #dbdbdb;
+}
+
+.edit-details label {
+    text-align: right;
+    font-weight: bold;
+    border-right: none !important;
+}
+
+.edit-details .col-sm-7 {
+    border-left: none !important;
+}
+
+.private-info {
+    font-weight: bold;
+    color: #999;
+    font-size: 13px;
+}
+
+.private-info-box {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+.edit-profil-button {
+    background: #3e99ed;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold !important;
+    padding: 4px 5px !important;
+}
+
+.edit-details .custom {
+    width: 130px !important;
+}
+.custom:focus {
+    border: none !important;
+}
+
+.edit-details option {
+    background: red !important;
+}
+
+.edit-details .profile-short {
+    margin-top: 20px;
+}
+
+.change-name {
+    color: #3e99ed;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-image img {
+    margin-right: 0;
+}
+
+.first-row {
+    margin-top: 0 !important;
+}
+
+.edit-details .wrong-register {
+    margin-top: -15px;
+}
+
+.react-tabs {
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+.profile-short label {
+    font-weight: bold;
+    text-align: right;
+}

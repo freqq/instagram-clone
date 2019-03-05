@@ -1,0 +1,48 @@
+.fas {
+    color: #eb4b59 !important;
+}
+
+.post-desc {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.author-username-desc {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.image-box{
+    position: relative;
+}
+
+.like-given{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 0 !important;
+    transition: .2s;
+}
+
+.show-like{
+    font-size: 75px !important;
+}
+
+.fa-bookmark{
+    float: right;
+    margin-right: 0 !important;
+}
+
+.far, .fas{
+    cursor: pointer;
+}
+
+a{
+    color: black !important;
+}
+
+.fa-bookmark{
+    color: black !important;
+}

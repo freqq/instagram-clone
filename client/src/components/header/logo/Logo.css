@@ -1,0 +1,26 @@
+.brand-logo{
+    color: black;
+    font-size: 23px;
+}
+
+.fa-instagram{
+    margin-right: 15px;
+    font-size: 26px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none !important;
+}
+
+.brand-name-logo{
+    -webkit-transition: all 0.4s ease !important;
+     transition: all 0.4s ease !important;
+     color: black;
+     font-size: 30px;
+     font-family: 'Grand Hotel', cursive;
+}
+
+.brand-name-logo.shrink{
+    font-size: 0px;
+}

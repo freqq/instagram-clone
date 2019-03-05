@@ -1,0 +1,25 @@
+.comments{
+    padding: 0px 20px;
+}
+
+.comment-author{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comment-object{
+    font-size: 14px;
+}
+
+.more-comments{
+    color: #999999;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.modal-comments{
+    height: 346px;
+    padding: 0 !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

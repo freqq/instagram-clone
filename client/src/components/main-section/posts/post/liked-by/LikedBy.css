@@ -1,0 +1,38 @@
+.modal-header .close{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.modal-title{
+    margin: 0 auto !important;
+}
+
+
+.modal-header{
+    height: 50px;
+}
+
+.no-likes{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #999999;
+    padding: 30px 0;
+}
+
+.liked-by-modal .modal-body{
+    height: 350px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.liked-by-modal .profile-short{
+    margin-bottom: 20px;
+}
+
+.liked-by-modal .dropdown-observe{
+    margin: 0 !important;
+}

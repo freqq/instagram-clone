@@ -1,0 +1,27 @@
+.small-footer-list{
+    list-style: none;
+    color: #013667;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.small-footer-list li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.small-footer{
+    text-align: center;
+}
+
+.copyright-small{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}

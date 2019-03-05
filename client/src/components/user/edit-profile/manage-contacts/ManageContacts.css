@@ -1,0 +1,20 @@
+.manage-component{
+    padding: 15px 40px;
+}
+
+.manage-text{
+    font-size: 15px;
+}
+
+.contacts-synchronized{
+    margin-top: 40px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+}
+
+.delete-all-contacts{
+    float: right;
+    color: #c5e0fa;
+    font-weight: bold;
+    cursor: pointer;
+}

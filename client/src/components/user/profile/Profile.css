@@ -1,0 +1,26 @@
+.profile-component{
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 750px) {
+    .profile-bookmarks .container{
+        width: 100% !important;
+    }
+
+    [class*="col-"] {
+        border: 2px solid transparent;
+    }
+    .profile-photos .col-4 {
+        margin-bottom: 1px !important;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .profile-footer{
+        text-align: center;
+    }
+
+    .profile-footer-list li:nth-child(1n){
+        display: block !important;
+    }
+  }

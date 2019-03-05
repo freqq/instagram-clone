@@ -1,0 +1,120 @@
+body {
+    background: green !important;
+}
+
+.phone-image img {
+    width: 90%;
+    height: auto;
+}
+
+.login-main {
+    margin-top: 50px;
+}
+
+.login-main .container {
+    width: 820px !important;
+}
+
+.login-box {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+}
+
+.login-logo {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.login-input {
+    width: 70% !important;
+    display: block;
+    margin: 0 auto;
+    background: #fafafa !important;
+    font-size: 12px !important;
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+.form-group:first-of-type {
+    margin-top: 20px;
+}
+
+.login-button {
+    width: 70% !important;
+    margin: 0 auto;
+    padding: 2px !important;
+    background: #449bea !important;
+    font-weight: bold !important;
+    height: 30px !important;
+}
+
+.login-divider {
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #999;
+    position: relative;
+    width: 100%;
+}
+.login-divider:before {
+    content: "";
+    height: 1px;
+    background-color: rgba(153, 153, 153, 0.5);
+    width: 25%;
+    position: absolute;
+    left: 15%;
+    top: 10px;
+}
+.login-divider:after {
+    content: "";
+    height: 1px;
+    background-color: rgba(153, 153, 153, 0.5);
+    width: 25%;
+    position: absolute;
+    right: 15%;
+    top: 10px;
+}
+
+.login-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #395283 !important;
+    font-size: 13px;
+}
+
+.login-link:hover{
+    text-decoration: none;
+}
+
+.login-link:last-child {
+    margin-bottom: 40px;
+}
+
+.sign-up-box {
+    margin-top: 20px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.register-sign {
+    color: #3e99ed !important;
+    margin-left: 5px;
+}
+
+.fb{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-main .container {
+        width: 100% !important;
+    }
+}

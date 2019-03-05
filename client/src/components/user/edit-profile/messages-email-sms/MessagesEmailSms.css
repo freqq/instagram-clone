@@ -1,0 +1,16 @@
+.messages-email-sms .privacy-text{
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+.messages-email-sms{
+    padding-left: 40px;
+}
+
+.messages-email-sms .form-check-label{
+    font-size: 14px;
+}
+
+.choice-box{
+    margin-bottom: 20px;
+}

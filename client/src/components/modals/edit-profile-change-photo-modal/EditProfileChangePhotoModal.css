@@ -1,0 +1,52 @@
+#changeProfilePhotoModal .modal-content {
+    height: 250px !important;
+    border: none !important;
+    overflow: hidden;
+}
+
+#changeProfilePhotoModal .modal-title {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#changeProfilePhotoModal .modal-header {
+    height: 140px;
+}
+
+#changeProfilePhotoModal .modal-body {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.change-profile-photo-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.add-photo {
+    color: #3e99ed;
+    font-weight: bold;
+}
+
+.delete-photo {
+    color: red;
+    font-weight: bold;
+}
+
+.change-profile-photo-menu li {
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+}
+.change-profile-photo-menu li:hover {
+    border-left: none !important;
+    margin: 0 !important;
+}
+
+#photo {
+    display: none;
+}

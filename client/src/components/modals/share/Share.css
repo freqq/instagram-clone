@@ -1,0 +1,61 @@
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.post-modal-component .modal:before{
+    margin-right: -400px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.modal-content{
+    border-radius: 10px !important;
+    width: 400px !important;
+}
+
+.share-methods{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+.share-methods i{
+    font-size: 25px !important;
+}
+
+.share-methods li{
+    margin-bottom: 20px;
+}
+
+.share-methods li:last-child{
+    margin-bottom: 5px;
+}
+
+.share-method-name{
+    color: #262626;
+    margin-left: 10px;
+}
+
+.share-cancel{
+    margin-left: 45px;
+    color: #3e99ed;
+}
+
+.modal-title{
+    margin: 0 auto;
+    font-size: 16px;
+}

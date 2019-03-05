@@ -1,0 +1,45 @@
+
+
+.profile-bookmarks hr {
+    background-color: #efefef;
+    height: 1px;
+    border: 0;
+}
+
+.bookmarks-list {
+    text-align: center;
+    list-style: none;
+    margin: 10px 0 0;
+}
+
+.bookmarks-list li {
+    margin: 0 30px;
+    color: #999999;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.bookmarks-list li i {
+    color: #999999 !important;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.bookmarks-list .fa-bookmark {
+    float: none;
+    margin-right: 5px !important;
+}
+
+.bookmark-active {
+    color: black !important;
+    border-top: 1px solid black;
+}
+
+.bookmark-active .far,
+.bookmark-active .fas {
+    color: black !important;
+}

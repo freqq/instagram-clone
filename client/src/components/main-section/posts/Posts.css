@@ -1,0 +1,77 @@
+.post-element{
+    border: 1px solid #e7e7e7;
+    background: white;
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.author-top-bar{
+    padding: 15px 5px 5px 15px;
+    height: 60px;
+}
+
+.author-top-bar img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    margin-right: 15px;
+}
+
+.author-username{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-photo{
+    width: 100%;
+}
+
+.actions{
+    padding: 12px 20px 0px 20px;
+}
+
+.actions i{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.likes{
+    font-size: 14px;
+    padding: 0 20px 2px 20px;
+    font-weight: bold;
+}
+
+.likes-bold{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.time-added{
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 5px auto 0px auto !important;
+    border-top: 1px solid #e7e7e7;
+    padding: 0;
+    width: 95%;
+}
+
+.no-following{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    color: #999;
+    font-weight: lighter;
+}

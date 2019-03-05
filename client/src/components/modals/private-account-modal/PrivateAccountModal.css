@@ -1,0 +1,28 @@
+.modal-silver{
+    color: #999;
+    font-size: 13px;
+    display: block;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#privateAccountModal .modal-header{
+    height: 350px;
+}
+
+#privateAccountModal .modal-title{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#privateAccountModal .modal-body{
+    padding: 0;
+    overflow: hidden ;
+}
+
+#privateAccountModal .modal-content{
+    height: 240px;
+    overflow: hidden;
+}

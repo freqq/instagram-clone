@@ -1,0 +1,9 @@
+.follower-object .profile-username,
+.follower-object .profile-name {
+    font-size: 13px !important;
+    margin: 0 !important;
+}
+
+.follower-object .profile-username{
+    font-weight: bold !important;
+}

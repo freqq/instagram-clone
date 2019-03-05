@@ -1,0 +1,104 @@
+.big-profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile-header{
+    margin-top: 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.profile-post-count, .profile-followers-count, .profile-following-count{
+    display: inline;
+    margin-right: 35px;
+    font-size: 17px;
+}
+
+.profile-following-count{
+    margin-right: 0 !important;
+}
+
+.count{
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.profile-header .profile-username{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.profile-header .profile-name{
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+}
+
+.profile-observe{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-left: 40px;
+    background: #3e99ed;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.profile-observed{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-left: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.small-profile-numbers{
+    display: none;
+    margin-top: 10px;
+    border-top: 1px solid #efefef;
+    color: #999999;
+    padding-top: 5px;
+}
+
+.small-profile-numbers .bold{
+    color: black;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .small-profile-numbers{
+        display: block;
+    }
+
+    .profile-bookmarks{
+        padding: 0 !important;
+    }
+
+    .profile-bookmarks hr{
+        width: 100%;
+    }
+
+    .bookmarks-list{
+        padding: 0 !important;
+    }
+
+    .profile-header{
+        margin-top: 20px !important;
+    }
+
+    .big-profile-image{
+        width: 70px;
+        height: 70px;
+    }
+  }

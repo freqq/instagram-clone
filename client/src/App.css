@@ -1,0 +1,14 @@
+.container {
+    width: 970px !important;
+}
+
+body {
+    background: #fafafa !important;
+    padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100% !important;
+    }
+}

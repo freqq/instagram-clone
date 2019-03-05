@@ -1,0 +1,18 @@
+.privacy-component{
+    padding: 15px;
+}
+
+.privacy-component h2{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.form-check-label{
+    font-weight: bold;
+}
+
+.privacy-text{
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}

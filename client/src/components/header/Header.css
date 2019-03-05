@@ -1,0 +1,17 @@
+.navbar{
+    border-bottom: 2px solid #e7e7e7 !important;
+    height: 80px !important;
+}
+
+nav.navbar{
+     -webkit-transition: all 0.4s ease !important;
+     transition: all 0.4s ease !important;
+  }
+  
+nav.navbar.shrink {
+    height: 50px !important;
+}
+
+
+  
+  

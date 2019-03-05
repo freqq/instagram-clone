@@ -1,0 +1,139 @@
+.nav-icon {
+    color: #262626 !important;
+    font-size: 23px;
+    margin-left: 40px;
+    font-weight: 100 !important;
+}
+
+i {
+    color: #262626 !important;
+    font-size: 21px;
+}
+
+.notifications-dropdown {
+    padding: 0;
+    height: 360px;
+    width: 500px;
+    margin-right: -60px !important;
+    margin-top: 18px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.observe-requests {
+    background: #eb4b59;
+    border-radius: 50%;
+    color: white;
+    float: left;
+    padding: 5px 2px;
+    font-weight: bold;
+    margin: 0px 10px 10px 10px;
+}
+
+.dropdown .profile-short {
+    border-bottom: 2px solid #efefef;
+}
+
+.dropdown-observe {
+    background: #3e99ed;
+    color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.dropdown .profile-name {
+    color: black;
+}
+
+.dropdown .profile-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.time-ago {
+    color: #999999;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.dropdown .profile-short {
+    padding: 5px 0;
+}
+
+.already {
+    border: 2px solid #efefef;
+    background: white;
+    color: black;
+}
+
+.dropdown .liked-image {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 15px;
+}
+
+.liked-image-text {
+    font-weight: normal;
+}
+
+.profile-image-like {
+    margin-top: 10px;
+}
+
+.fa-angle-right {
+    float: right;
+    color: #a5a7aa !important;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.dropdown-menu-arrow {
+    top: -25px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+.dropdown-menu-arrow:after,
+.dropdown-menu-arrow:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 7px 8px;
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1001;
+}
+.dropdown-menu-arrow:after {
+    bottom: -18px;
+    right: -8px;
+    border-bottom-color: #fff;
+}
+.dropdown-menu-arrow:before {
+    bottom: -17px;
+    right: -8px;
+    border-bottom-color: rgba(0,0,0,.15);
+}
+
+
+.observe-item .dropdown-observe{
+    margin: 0 !important;
+}
+
+.fa-user:active{
+    color: #999 !important;
+}

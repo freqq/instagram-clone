@@ -1,0 +1,17 @@
+.comment-photo{
+    padding: 5px 0px;
+}
+
+.add-comment{
+    margin-top: 0 !important;
+    border: none !important;
+    font-size: 14px;
+    color: #999999;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.add-comment:focus, .add-comment:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
