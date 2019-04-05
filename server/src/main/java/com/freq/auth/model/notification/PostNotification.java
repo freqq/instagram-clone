@@ -1,18 +1,14 @@
-package com.freq.auth.model;
+package com.freq.auth.model.notification;
 
 import com.freq.auth.model.audit.UserDateAudit;
+import com.freq.auth.model.post.Post;
 import com.freq.auth.model.user.User;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "observe_notifications", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {
-                "notification_creator_id",
-                "notification_receiver_id"
-        })
-})
-public class ObserveNotification extends UserDateAudit {
+@Table(name = "post_notification")
+public class PostNotification extends UserDateAudit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -25,11 +21,29 @@ public class ObserveNotification extends UserDateAudit {
     @JoinColumn(name = "notification_receiver_id", nullable = false)
     private User notificationReceiver;
 
-    public ObserveNotification() {}
+    @Enumerated(EnumType.STRING)
+    @Column(length = 50)
+    private PostNotificationType notificationType;
 
-    public ObserveNotification(User notificationCreator, User notificationReceiver) {
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "post_id", nullable = false)
+    private Post post;
+
+    public PostNotification() {
+    }
+
+    public PostNotification(User notificationCreator, User notificationReceiver, PostNotificationType notificationType) {
         this.notificationCreator = notificationCreator;
         this.notificationReceiver = notificationReceiver;
+        this.notificationType = notificationType;
+    }
+
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
     }
 
     public Long getId() {
@@ -54,5 +68,13 @@ public class ObserveNotification extends UserDateAudit {
 
     public void setNotificationReceiver(User notificationReceiver) {
         this.notificationReceiver = notificationReceiver;
+    }
+
+    public PostNotificationType getNotificationType() {
+        return notificationType;
+    }
+
+    public void setNotificationType(PostNotificationType notificationType) {
+        this.notificationType = notificationType;
     }
 }

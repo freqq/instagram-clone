@@ -26,7 +26,8 @@ public class Comment extends UserDateAudit {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public Comment(){}
+    public Comment() {
+    }
 
     public Comment(@NotBlank @Size(max = 100) String body, @NotBlank Post post) {
         this.body = body;

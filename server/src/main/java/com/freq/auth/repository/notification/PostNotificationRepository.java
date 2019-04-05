@@ -1,7 +1,6 @@
 package com.freq.auth.repository.notification;
 
-import com.freq.auth.model.ObserveNotification;
-import com.freq.auth.model.PostNotification;
+import com.freq.auth.model.notification.PostNotification;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -12,12 +12,12 @@ import java.util.Set;
 
 @Entity
 @Table(name = "users", uniqueConstraints = {
-    @UniqueConstraint(columnNames = {
-            "username"
-    }),
-    @UniqueConstraint(columnNames = {
-            "email"
-    })
+        @UniqueConstraint(columnNames = {
+                "username"
+        }),
+        @UniqueConstraint(columnNames = {
+                "email"
+        })
 })
 public class User extends DateAudit {
     @Id
@@ -61,9 +61,10 @@ public class User extends DateAudit {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
-    public User(){}
+    public User() {
+    }
 
-    public User(String name, String username, String email, String password, String imagePath){
+    public User(String name, String username, String email, String password, String imagePath) {
         this.name = name;
         this.username = username;
         this.email = email;

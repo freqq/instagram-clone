@@ -1,6 +1,6 @@
 package com.freq.auth.payload.post.response.profile;
 
-import com.freq.auth.payload.UserSummary;
+import com.freq.auth.payload.user.UserSummary;
 import com.freq.auth.payload.post.response.post.ProfilePostResponse;
 
 import java.util.List;
@@ -18,7 +18,8 @@ public class UserProfileResponse {
     private boolean isPrivate;
     private boolean requestSent;
 
-    public UserProfileResponse(){}
+    public UserProfileResponse() {
+    }
 
     public String getBio() {
         return bio;

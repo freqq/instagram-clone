@@ -1,4 +1,4 @@
-package com.freq.auth.payload;
+package com.freq.auth.payload.user;
 
 import javax.validation.constraints.NotBlank;
 

@@ -9,7 +9,7 @@ import javax.persistence.*;
                 "following_id"
         })
 })
-public class Follow{
+public class Follow {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

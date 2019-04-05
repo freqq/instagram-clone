@@ -1,6 +1,6 @@
 package com.freq.auth.payload.post.response.like;
 
-import com.freq.auth.payload.UserSummary;
+import com.freq.auth.payload.user.UserSummary;
 
 public class LikeResponse {
     private Long id;

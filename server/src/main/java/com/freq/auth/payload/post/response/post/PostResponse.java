@@ -1,6 +1,6 @@
 package com.freq.auth.payload.post.response.post;
 
-import com.freq.auth.payload.UserSummary;
+import com.freq.auth.payload.user.UserSummary;
 
 import java.time.Instant;
 

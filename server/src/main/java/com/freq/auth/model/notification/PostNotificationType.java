@@ -1,4 +1,4 @@
-package com.freq.auth.model;
+package com.freq.auth.model.notification;
 
 public enum PostNotificationType {
     POST_LIKED,

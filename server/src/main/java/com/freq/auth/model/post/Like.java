@@ -25,7 +25,8 @@ public class Like extends UserDateAudit {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public Like(){}
+    public Like() {
+    }
 
     public Like(Post post) {
         this.post = post;

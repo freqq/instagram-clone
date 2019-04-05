@@ -1,4 +1,4 @@
-package com.freq.auth.payload;
+package com.freq.auth.payload.user;
 
 public class UserSummary {
     private Long id;
@@ -6,7 +6,8 @@ public class UserSummary {
     private String name;
     private String imagePath;
 
-    public UserSummary(){}
+    public UserSummary() {
+    }
 
     public UserSummary(Long id, String username, String name, String imagePath) {
         this.id = id;

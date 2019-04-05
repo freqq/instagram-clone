@@ -18,8 +18,9 @@ public interface CommentRepository extends JpaRepository<Comment, Long> {
     long countByPostId(@Param("postId") Long postId);
 
     Page<Comment> findCommentsByPostId(@Param("postId") Long postId, Pageable pageable);
+
     List<Comment> findCommentsByPostId(@Param("postId") Long postId);
 
     @Query("SELECT c FROM Comment c where c.id = :commentId and c.post.id = :postId")
-    Optional<Comment> findCommentByPostIdAndCommentId(@Param("postId") Long postId,@Param("commentId") Long commentId);
+    Optional<Comment> findCommentByPostIdAndCommentId(@Param("postId") Long postId, @Param("commentId") Long commentId);
 }

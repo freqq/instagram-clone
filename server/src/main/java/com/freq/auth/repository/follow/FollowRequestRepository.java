@@ -1,6 +1,5 @@
 package com.freq.auth.repository.follow;
 
-import com.freq.auth.model.PostNotification;
 import com.freq.auth.model.user.FollowRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

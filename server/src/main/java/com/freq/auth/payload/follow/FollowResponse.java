@@ -3,7 +3,8 @@ package com.freq.auth.payload.follow;
 public class FollowResponse {
     private boolean followed;
 
-    public FollowResponse(){}
+    public FollowResponse() {
+    }
 
     public FollowResponse(boolean followed) {
         this.followed = followed;

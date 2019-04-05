@@ -6,7 +6,8 @@ public class ProfilePostResponse {
     private Long likeCount;
     private Long commentCount;
 
-    public ProfilePostResponse(){}
+    public ProfilePostResponse() {
+    }
 
     public ProfilePostResponse(String imagePath, Long likeCount, Long commentCount) {
         this.imagePath = imagePath;

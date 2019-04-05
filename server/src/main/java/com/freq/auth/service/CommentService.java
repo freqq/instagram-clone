@@ -2,8 +2,8 @@ package com.freq.auth.service;
 
 import com.freq.auth.exception.BadRequestException;
 import com.freq.auth.exception.ResourceNotFoundException;
-import com.freq.auth.model.PostNotification;
-import com.freq.auth.model.PostNotificationType;
+import com.freq.auth.model.notification.PostNotification;
+import com.freq.auth.model.notification.PostNotificationType;
 import com.freq.auth.model.post.Comment;
 import com.freq.auth.model.post.Post;
 import com.freq.auth.model.user.User;
@@ -44,7 +44,7 @@ public class CommentService {
     @Autowired
     private PostNotificationRepository postNotificationRepository;
 
-    public Comment commentPost(Long postId, CommentRequest commentRequest, UserPrincipal currentUser){
+    public Comment commentPost(Long postId, CommentRequest commentRequest, UserPrincipal currentUser) {
         Post post = postRepository.findById(postId)
                 .orElseThrow(() -> new ResourceNotFoundException("Poll", "id", postId));
 
@@ -72,7 +72,7 @@ public class CommentService {
         Pageable pageable = PageRequest.of(page, size, Sort.Direction.DESC, "createdAt");
         Page<Comment> comments = commentRepository.findCommentsByPostId(postId, pageable);
 
-        if(comments.getNumberOfElements() == 0) {
+        if (comments.getNumberOfElements() == 0) {
             return new PagedResponse<>(Collections.emptyList(), comments.getNumber(),
                     comments.getSize(), comments.getTotalElements(), comments.getTotalPages(), comments.isLast());
         }
@@ -100,11 +100,11 @@ public class CommentService {
     }
 
     private void validatePageNumberAndSize(int page, int size) {
-        if(page < 0) {
+        if (page < 0) {
             throw new BadRequestException("Page number cannot be less than zero.");
         }
 
-        if(size > AppConstants.MAX_PAGE_SIZE) {
+        if (size > AppConstants.MAX_PAGE_SIZE) {
             throw new BadRequestException("Page size must not be greater than " + AppConstants.MAX_PAGE_SIZE);
         }
     }

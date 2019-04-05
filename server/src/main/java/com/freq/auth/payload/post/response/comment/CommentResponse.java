@@ -1,7 +1,6 @@
 package com.freq.auth.payload.post.response.comment;
 
-import com.freq.auth.model.post.Post;
-import com.freq.auth.payload.UserSummary;
+import com.freq.auth.payload.user.UserSummary;
 
 import java.time.Instant;
 

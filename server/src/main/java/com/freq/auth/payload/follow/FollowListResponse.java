@@ -1,6 +1,6 @@
 package com.freq.auth.payload.follow;
 
-import com.freq.auth.payload.UserSummary;
+import com.freq.auth.payload.user.UserSummary;
 
 import java.util.List;
 

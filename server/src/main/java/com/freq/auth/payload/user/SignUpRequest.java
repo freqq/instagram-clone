@@ -1,10 +1,10 @@
-package com.freq.auth.payload;
+package com.freq.auth.payload.user;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-public class UpdateUserRequest {
+public class SignUpRequest {
     @NotBlank
     @Size(min = 4, max = 40)
     private String name;
@@ -18,14 +18,9 @@ public class UpdateUserRequest {
     @Email
     private String email;
 
-    @Size(max = 100)
-    private String bio;
-
-    private String phone;
-
-    private String sex;
-
-    private String url;
+    @NotBlank
+    @Size(min = 6, max = 20)
+    private String password;
 
     public String getName() {
         return name;
@@ -51,35 +46,11 @@ public class UpdateUserRequest {
         this.email = email;
     }
 
-    public String getBio() {
-        return bio;
+    public String getPassword() {
+        return password;
     }
 
-    public void setBio(String bio) {
-        this.bio = bio;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

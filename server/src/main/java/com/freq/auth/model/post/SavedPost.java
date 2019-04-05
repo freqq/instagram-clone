@@ -25,7 +25,8 @@ public class SavedPost extends UserDateAudit {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public SavedPost(){}
+    public SavedPost() {
+    }
 
     public SavedPost(Post post) {
         this.post = post;
